@@ -23,7 +23,7 @@ How to get Active Developer Badge in discord tutorial
 8. Next write `python main.py`
 9. In browser there will be a window. Do exactly what's discord saying
 10. Next when your bot is online type `/getbadge`
-11. After 24 hours open ![this page](https://discord.com/developers/active-developer) and claim your badge!
+11. After 24 hours open [this page](https://discord.com/developers/active-developer) and claim your badge!
 # Issues
 ### `ERR: Improper token has been passed.`
 If you see this error, you may entered wrong token. Please re-edit it in config.json
