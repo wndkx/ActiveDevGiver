@@ -29,7 +29,7 @@ async def give_badge(interaction: Interaction):
         url="https://discord.gg/discord-developers",
         description="Join to this server to know more information about badge"
     )
-    issues = Embed(color=Colour.blue(), title="Issues",url="https://github.com", description="Sometimes the badge couldnt give correctly. To see all issues go to the ActiveDevGiver's github and go on Issues.")
+    issues = Embed(color=Colour.blue(), title="Issues",url="https://github.com/z3ven/ActiveDevGiver/issues, description="Sometimes the badge couldnt give correctly. To see all issues go to the ActiveDevGiver's github and go on Issues.")
     await interaction.response.send_message(embeds=[main_embed, discord_devs, issues])
 if __name__ == "__main__":
     client_id = jsony.load_from_file("config.json")["client_id"]
